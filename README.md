@@ -1,5 +1,6 @@
-This is a project on 
+# This is a project on HDB resale housing prices
 
+```
 resale_housing_prices/
 │
 ├── data/                   # Raw and processed data files
@@ -34,3 +35,17 @@ resale_housing_prices/
 ├── README.md               # Project overview and documentation
 ├── .gitignore              # Files and folders to ignore in Git
 └── main.py                 # Main script to run the entire pipeline
+```
+
+
+### Project Objectives/Framework
+- Jupyter Notebook for EDA
+#### Python
+- Data cleaning (pandas)
+- Data validation (jsonschema)
+- ORM for interactions between Python and PostgreSQL (sqalchemy)
+#### PostgreSQL 
+Data storage to store cleaned data
+#### PowerBI
+- Visualisations
+- Connect Power BI using native PostgreSQL connector
