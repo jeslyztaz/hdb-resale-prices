@@ -14,15 +14,15 @@ The aim of this analysis is to understand trends in HDB resale prices, the facto
 
 I used the pandas library to clean the dataset by first dropping duplicate rows if there were any.
 
-![Drop Duplicate Rows](../codepics/drop_duplicates.png)
+![Drop Duplicate Rows](code_screenshots/drop_duplicates.png)
 
 Next, some csv files did not have the 'remaining_lease' column, hence I inserted the column and calculated the remaining lease for the flats given that all HDB flats have a lease of 99 years.
 
-![Add Remaining Lease](../codepics/add_remaining_lease.png)
+![Add Remaining Lease](code_screenshots/add_remaining_lease.png)
 
 Lastly, I standardised the terminology for columns such as 'flat_type' as mixed terminology across files, such as '2-room' and '2 room' or 'apartment' and 'APARTMENT', led to flats having separate categories despite having the same features. Hence, I replaced all the hyphens with spaces and lower-cased all the letters.
 
-![Standardise Terminology](../codepics/standardise_terms.png)
+![Standardise Terminology](code_screenshots/standardise_terms.png)
 
 ---
 
@@ -30,7 +30,7 @@ Lastly, I standardised the terminology for columns such as 'flat_type' as mixed 
 
 After data cleaning, I saved the cleaned data as new csv files. 
 
-![Cleaned Data](../codepics/cleaned_data.png)
+![Cleaned Data](code_screenshots/cleaned_data.png)
 
 I then used the psycopg2 database adaptor to create a connection between Python and PostgreSQL and created table queries to insert the data into PostgreSQL. I then used the data in PostgreSQL to create visualisations below in Power BI.
 

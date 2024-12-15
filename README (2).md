@@ -27,6 +27,7 @@ resale_housing_prices/
 │   ├── data cleaning + postgresql.ipynb
 │
 ├── reports/                # Generated visualisations and reports
+│   └── code_screenshots/   # Code screenshots used for the report
 │   └── dashboard_images/   # Visualisations from Power BI
 │   └── dashboard.pbix      # Power BI dashboard file
 │   └── report.md           # Project report
