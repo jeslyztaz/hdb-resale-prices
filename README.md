@@ -32,7 +32,8 @@ hdb_resale_prices/
 │   └── dashboard.pbix      # Power BI dashboard file
 │   └── report.md           # Project report
 │
-├── README.md               # Project overview and documentation
 ├── config.yaml             # File for local database
-└── .gitignore              # Files and folders to ignore in Git
+├── .gitignore              # Files and folders to ignore in Git
+├── README.md               # Project overview and documentation
+└── requirements.txt        # Libraries used in project
 ```
