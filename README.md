@@ -1,12 +1,12 @@
-# Symmetrical Telegram
+# HDB Resale Prices
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 This is a project on HDB Resale Housing prices in Singapore. The dataset can be found [here](https://data.gov.sg/collections/189/view).
-All the code can be found in [notebook](https://github.com/jeslyztaz/symmetrical-telegram/blob/master/notebooks/data%20cleaning%20%2B%20postgresql.ipynb)
-For a detailed analysis, please refer to this [writeup](https://github.com/jeslyztaz/symmetrical-telegram/blob/master/)
+All the code can be found in [notebook](https://github.com/jeslyztaz/hdb-resale-prices/blob/master/notebooks/data%20cleaning%20%2B%20postgresql.ipynb))
+For a detailed analysis, please refer to this [writeup](https://github.com/jeslyztaz/hdb-resale-prices/blob/master/reports/report.md)
 
 ## Tools used
 1. [Jupyter](https://jupyter.org/)
@@ -17,7 +17,7 @@ For a detailed analysis, please refer to this [writeup](https://github.com/jesly
 
 ## Project Struture
 ```
-resale_housing_prices/
+hdb_resale_prices/
 │
 ├── data/                   # Raw and processed data files
 │   ├── raw/                # Unprocessed raw data
@@ -34,6 +34,5 @@ resale_housing_prices/
 │
 ├── README.md               # Project overview and documentation
 ├── config.yaml             # File for local database
-├── .gitignore              # Files and folders to ignore in Git
-└── main.py                 # Main script to run the entire pipeline
+└── .gitignore              # Files and folders to ignore in Git
 ```
