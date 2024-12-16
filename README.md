@@ -5,7 +5,7 @@ pip install -r requirements.txt
 ```
 
 This is a project on HDB Resale Housing prices in Singapore. The dataset can be found [here](https://data.gov.sg/collections/189/view).
-All the code can be found in [notebook](https://github.com/jeslyztaz/hdb-resale-prices/blob/master/notebooks/data%20cleaning%20%2B%20postgresql.ipynb))
+All the code can be found in [notebook](https://github.com/jeslyztaz/hdb-resale-prices/blob/master/notebooks/data%20cleaning%20%2B%20postgresql.ipynb)
 For a detailed analysis, please refer to this [writeup](https://github.com/jeslyztaz/hdb-resale-prices/blob/master/reports/report.md)
 
 ## Tools used
