@@ -1,6 +1,6 @@
 # HDB Resale Housing Prices Analysis
 
-The full project can be accessed here: https://github.com/jeslyztaz/symmetrical-telegram
+The full project can be accessed here: https://github.com/jeslyztaz/hdb-resale-prices
 
 This project explores HDB resale housing prices in Singapore. The dataset was sourced from [data.gov.sg](https://data.gov.sg/collections/189/view). There were 5 csv files comprising over 900, 000 resale flat prices from 1990 to 2024 and 10 input variables such as flat types and towns.
 
