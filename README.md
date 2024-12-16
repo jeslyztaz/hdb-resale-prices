@@ -6,7 +6,7 @@ pip install requirements.txt
 
 This is a project on HDB Resale Housing prices in Singapore. The dataset can be found [here](https://data.gov.sg/collections/189/view).
 All the code can be found in [notebook](https://github.com/jeslyztaz/symmetrical-telegram/blob/master/notebooks/data%20cleaning%20%2B%20postgresql.ipynb)
-For a detailed analysis, please refer to this [writeup](https://github.com/jeslyztaz/symmetrical-telegram/blob/master/reports/report.md)
+For a detailed analysis, please refer to this [writeup](https://github.com/jeslyztaz/symmetrical-telegram/blob/master/)
 
 ## Tools used
 1. [Jupyter](https://jupyter.org/)
