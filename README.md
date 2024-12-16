@@ -21,16 +21,19 @@ hdb_resale_prices/
 │
 ├── data/                   # Raw and processed data files
 │   ├── raw/                # Unprocessed raw data
-│   ├── cleaned/            # Processed/cleaned data
+│   └── cleaned/            # Processed/cleaned data
 │
 ├── notebooks/              # Jupyter notebooks for exploration
-│   ├── data cleaning + postgresql.ipynb
+│   └── data cleaning + postgresql.ipynb
 │
 ├── reports/                # Generated visualisations and reports
-│   └── code_screenshots/   # Code screenshots used for the report
-│   └── dashboard_images/   # Visualisations from Power BI
-│   └── dashboard.pbix      # Power BI dashboard file
+│   ├── code_screenshots/   # Code screenshots used for the report
+│   ├── dashboard_images/   # Visualisations from Power BI
+│   ├── dashboard.pbix      # Power BI dashboard file
 │   └── report.md           # Project report
+│
+├── scripts/                # Python scripts
+│   └── download.py         # Downloading of dataset
 │
 ├── config.yaml             # File for local database
 ├── .gitignore              # Files and folders to ignore in Git
